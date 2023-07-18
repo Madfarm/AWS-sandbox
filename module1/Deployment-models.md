@@ -7,6 +7,8 @@ You can migrate existing applications to the cloud or you can build new applicat
 Deploy resources using virtualization and resource management tools
 this increases resource utilization
 
+also called private cloud deployment
+
 
 ## Hybrid
 Cloud-based resources are connected to on-premises infrastructure
