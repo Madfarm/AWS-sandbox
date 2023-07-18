@@ -27,3 +27,6 @@ utilizes hardware accelerators
 - floating point number calculation
 - graphics processing
 - data pattern matching
+
+> Storage Optimized
+- High performance for locally stored data
