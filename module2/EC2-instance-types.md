@@ -26,6 +26,8 @@ Computer intensive tasks like gaming servers, high performance computing, and sc
 > Memory Optimized
 self explanatory
 
+high performance databases
+
 > Accelerated computing
 utilizes hardware accelerators
 - floating point number calculation
@@ -34,3 +36,5 @@ utilizes hardware accelerators
 
 > Storage Optimized
 - High performance for locally stored data
+
+Data warehousing applications
