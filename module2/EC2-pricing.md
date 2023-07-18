@@ -8,8 +8,11 @@ ideal for short-term, irregular workloads that cannot be interrupted. No upfront
 
 ## Savings Plans
 low prices on EC2 usage in exchange for a committment of usage 
+
 measured in dollars per hour
 1 - 3 year term
+
+When you go above your committment, you are charged on-demand pricing
 
 ## Reserved Instances
 good for predictable usage
