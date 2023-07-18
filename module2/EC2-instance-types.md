@@ -15,6 +15,10 @@ types offer different cpu, storage, memory, and networking capacity
 > General Purpose
 Balanced resources do lots of stuff
 
+- application servers
+- backend servers for enterprise applications
+- small and medium databases
+
 
 > Compute Optimized
 Computer intensive tasks like gaming servers, high performance computing, and scientific modeling
