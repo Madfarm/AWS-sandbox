@@ -19,7 +19,18 @@ you also control the networking aspect of an EC2 instance such as the type of re
 
 
 ## How EC2 Works
-First you must launch an instance
+1. First you must launch an instance
 There are templates for basic configurations like what operating system
 
 you can also select the instance types
+
+
+then you specify security settings to control the network traffic flow
+
+2. Next, connect to the instance
+
+Several methods including users logging in and accessing the computer desktop
+
+3. Once you are connected you can begin using it. 
+Run commands, install software, add storage, manage files
+
