@@ -1,3 +1,1 @@
-using MongoDB.Bson;
-
-[Bson]
+namespace GopherAPI.Entities;
