@@ -9,3 +9,13 @@ Auto scaling will automatically add and remove EC2 instances as needed
 2 Approaches |||| they can be used together
 
 Dynamic Scaling & Predictive Scaling 
+
+
+The decoupling of processes allows each one to be scaled individually
+
+## Auto Scaling
+
+Set a minimum 
+Set a desired capacity - if you don't set this it defaults to the minimum
+Set a max
+
