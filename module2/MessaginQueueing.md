@@ -15,4 +15,11 @@ like all of AWS; scales automatically
 basically a queue filled with payloads of data
 
 SNS can send out messages to services too, but they can also send notifications to end users
-utilizes the publish/subscribe model. SNS Topics are the channels that services can subscribe to. Messages are published in topics, and all services subscribed to that topic receive the messages
+utilizes the publish/subscribe model. SNS Topics are the channels that services can subscribe to. Messages are published in topics, and all services subscribed to that topic receive the messages. The subscribers can also be endpoints such as SQS Queues, AWS Lambdas, HTTPS or HTTP web hooks.
+
+SNS for notifications sends to:
+- mobile push
+- SMS
+- email
+
+
