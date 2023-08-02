@@ -4,19 +4,34 @@ namespace GopherAPI.Controllers;
 [Route("[controller]")]
 public class GopherController : ControllerBase
 {
+    private GopherContext _context;
     public GopherController(GopherContext context)
     {
         _context = context;
     }
-    // [HttpGet]
-    // public async <ActionResult<List<Gopher>>> GetGophers()
-    // {
-    //     var output = await _context.Gophers.ToList();
-    // }
 
-    // [HttpGet]
-    // public Task<> GetGopher()
-    // {
+    [HttpGet]
+    public ActionResult<List<Gopher>> GetGophers()
+    {
+        if (_context.Gophers.Count() != 0)
+        {
+            var output = _context.Gophers.ToList();
+            return output;
+        }
 
-    // }
+        return NoContent();
+    }
+
+    [HttpGet("{id}")]
+    public ActionResult<Goph> GetGopher()
+    {
+        var gopher = _context.Gophers.Find(id);
+
+        if (gopher == null)
+        {
+            return NotFound();
+        }
+
+        return gopher;
+    }
 }
