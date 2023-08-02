@@ -7,7 +7,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var configuation = builder.Configuration;
+var configuration = builder.Configuration;
 builder.Services.AddDbContext<GopherContext>(options =>
     options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
 
