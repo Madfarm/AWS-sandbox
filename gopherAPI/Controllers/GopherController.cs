@@ -23,7 +23,7 @@ public class GopherController : ControllerBase
     }
 
     [HttpGet("{id}")]
-    public ActionResult<Goph> GetGopher()
+    public ActionResult<Gopher> GetGopher()
     {
         var gopher = _context.Gophers.Find(id);
 
@@ -34,4 +34,10 @@ public class GopherController : ControllerBase
 
         return gopher;
     }
+
+    // [HttpPost]
+    // public ActionResult CreateGopher()
+    // {
+
+    // }
 }
