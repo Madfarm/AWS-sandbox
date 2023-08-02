@@ -6,7 +6,11 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<GopherContext>();
+
+var configuation = builder.Configuration;
+builder.Services.AddDbContext<GopherContext>(options =>
+    options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
+
 
 var app = builder.Build();
 
