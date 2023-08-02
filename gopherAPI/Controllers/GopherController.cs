@@ -4,11 +4,14 @@ namespace GopherAPI.Controllers;
 [Route("[controller]")]
 public class GopherController : ControllerBase
 {
-    
+    public GopherController(GopherContext context)
+    {
+        _context = context;
+    }
     // [HttpGet]
-    // public Task<> GetGophers()
+    // public async <ActionResult<List<Gopher>>> GetGophers()
     // {
-        
+    //     var output = await _context.Gophers.ToList();
     // }
 
     // [HttpGet]
