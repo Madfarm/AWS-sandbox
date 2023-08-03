@@ -75,8 +75,23 @@ public class GopherController : ControllerBase
         {
             return NotFound();
         }
-        
-         
+
+        foundGopher.Age = updates.Age;
+        foundGopher.Name = updates.Name;
+
+        _context.Entry(foundGopher).State = EntityState.Modified;
+
+        try 
+        {
+            await _context.SaveChangesAsync();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
+
+        return NoContent();
     }
 
 }
