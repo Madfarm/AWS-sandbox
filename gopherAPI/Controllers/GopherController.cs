@@ -64,8 +64,19 @@ public class GopherController : ControllerBase
         await _context.SaveChangesAsync();
 
         return NoContent();
-        
+    }
 
+    [HttpPut("{id}")]
+    public async Task<ActionResult<Gopher>> UpdateGopher(int id, [FromBody] CreateGopherDto updates)
+    {
+        var foundGopher = _context.Gophers.Find(id);
+
+        if (foundGopher is null)
+        {
+            return NotFound();
+        }
+        
+         
     }
 
 }
