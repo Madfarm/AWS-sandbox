@@ -5,7 +5,7 @@ namespace GopherAPI.Controllers;
 public class GopherController : ControllerBase
 {
     private GopherContext _context;
-    public GopherController(GopherContext context)
+    public GopherController(GopherContext context) 
     {
         _context = context;
     }
@@ -48,6 +48,24 @@ public class GopherController : ControllerBase
         await _context.SaveChangesAsync();
 
         return CreatedAtAction(nameof(GetGopher), new { id = gopher.Id }, gopher);
+    }
+
+    [HttpDelete("{id}")]
+    public async Task<ActionResult> DeleteGopher(int id)
+    {
+        var gopher = _context.Gophers.Find(id);
+
+        if (gopher is null)
+        {
+            return NotFound();
+        }
+
+        _context.Gophers.Remove(gopher);
+        await _context.SaveChangesAsync();
+
+        return NoContent();
+        
+
     }
 
 }
