@@ -23,7 +23,7 @@ public class GopherController : ControllerBase
     }
 
     [HttpGet("{id}")]
-    public ActionResult<Gopher> GetGopher()
+    public ActionResult<Gopher> GetGopher(int id)
     {
         var gopher = _context.Gophers.Find(id);
 
@@ -35,9 +35,19 @@ public class GopherController : ControllerBase
         return gopher;
     }
 
-    // [HttpPost]
-    // public ActionResult CreateGopher()
-    // {
+    [HttpPost]
+    public async Task<ActionResult<Gopher>> CreateGopher([FromBody] CreateGopherDto newGoph)
+    {
+        Gopher gopher = new()
+        {
+            Name = newGoph.Name,
+            Age = newGoph.Age
+        };
 
-    // }
+        _context.Gophers.Add(gopher);
+        await _context.SaveChangesAsync();
+
+        return CreatedAtAction(nameof(GetGopher), new { id = gopher.Id }, gopher);
+    }
+
 }
