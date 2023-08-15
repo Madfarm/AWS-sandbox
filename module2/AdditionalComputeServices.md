@@ -13,6 +13,8 @@ Amazon Elastic Kubernetes Services, EKS
 
 container orchestration tools - both run docker containers
 
+serverless container orchestration with Fargate
+
 need access to the OS? Use EC2
 event driven, short running functions? Use Lambda
 and use EKS or ECS to use container based workloads
