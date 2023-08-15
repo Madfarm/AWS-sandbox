@@ -7,3 +7,5 @@
 - Proximity, how close it is to your customer base
 - Features, different features in different regions
 - Pricing, prices vary by region
+
+Availability Zone is one or more discrete data centers with redundant power, networking, and connectivity.
