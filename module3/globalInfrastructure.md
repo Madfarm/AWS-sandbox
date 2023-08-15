@@ -8,4 +8,6 @@
 - Features, different features in different regions
 - Pricing, prices vary by region
 
-Availability Zone is one or more discrete data centers with redundant power, networking, and connectivity.
+Availability Zone is one or more discrete data centers with redundant power, networking, and connectivity within a region.
+
+It's reccommended to run your entities across multiple availability zones in case of something like a natural disaster.
