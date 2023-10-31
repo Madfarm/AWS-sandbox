@@ -8,3 +8,5 @@ Create and manage AWS resources by making calls to AWS APIs
 - AWS SDKs
 - Tools like CloudFormation
 
+AWS Management Console is a browser-based and makes it easy to visually manage your AWS resources
+The management console is inefficient at managing AWS resources compared to scripting or programming the API calls
