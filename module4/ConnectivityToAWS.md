@@ -8,7 +8,7 @@ Your own isolated section of the AWS cloud with a network you define that you ca
 
 to allow traffic from the public internet to flow into your VPC you must attatch an Internet Gateway (IGW) to it
 
-A Virutal Private Gateway only allows people to access the VPC from an approved network
+A Virutal Private Gateway only allows people to access the VPC from an approved network by creating a VPN connection between the VPC and the other network 
 
 ## AWS Direct Connect
 Dedicated private fiber connection from your data center to AWS
