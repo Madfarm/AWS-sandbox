@@ -46,4 +46,4 @@ The data might be an image, video, text document, or any other type of file. Met
 - cheapest object storage
 
 ## S3 Outposts
-- buckets in AWS Outposts
+- buckets in AWS Outposts, basically
