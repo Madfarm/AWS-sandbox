@@ -14,3 +14,18 @@ AWS's relational database management system
 - failover
 - disaster recovery
 
+RDS is available on 6 database engines:
+- Amazon Aurora
+- PostgreSQL
+- MySQL
+- MariaDB
+- Oracle Database
+- Microsoft SQL Server
+
+# Amazon Aurora
+An enterprise-class relational database. Compatible with MySQL and PostgreSQL dbs.
+- 5x faster than MySQL dbs
+- 3x faster than PSQL dbs
+
+1/10th the price of commercial grade databases
+data replicated 6 times across three Availability Zones and is constantly backed up S3
