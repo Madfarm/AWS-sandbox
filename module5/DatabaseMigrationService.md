@@ -16,3 +16,12 @@ the source database can be located on-premises, running on Amazon EC2 Instances,
 - use AWS Schema Conversion Tool to convert the source schema and code to match the target database
 
 - use DMS to migrate
+
+## Other use cases for DMS
+- development and test database migrations
+lets you test with prod data without messing with users
+
+- database consolidation
+
+- continuous replication
+disaster recovery
