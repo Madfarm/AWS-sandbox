@@ -7,10 +7,18 @@
 
 # Amazon Quantum Ledger Database (Amazon QLDB)
 - ledger database service
-
-You can use Amazon QLDB to review a complete history of all the changes that have been made to your application data.
+- You can use Amazon QLDB to review a complete history of all the changes that have been made to your application data.
 
 
 # Amazon Managed Blockchain
 - create and manage blockchain networks using open-source frameworks
+
+
+# Amazon ElastiCache
+- adds caching layers on top of your dbs to improve read times on common requests
+- supports two data stores: Redis and Memcached
+
+# Amazon DynamoDb Accelerator
+- in-mem cache for DyanomDB
+- can speed Dynamo to microseconds
 
