@@ -36,6 +36,11 @@ Even if you have multiple employees who require the same level of access, you sh
 IAM Policy - the way you grant or deny permissions to IAM users
 - a JSON document that describes what API calls a user can or cannot make
 
+Best Practice:
+Only grant permissions that are required and no extra
+
+
+
 
 IAM Groups - attach an IAM policy to the group and all users in the group get those permissions
 
