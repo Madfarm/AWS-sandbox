@@ -4,7 +4,8 @@ Encryption - at rest | at transit
 
 
 
-# Amazon Inspector 
+# Amazon Inspector
+automated security assessments 
 helps improve security and compliance of your AWS deployed applications
 
 Specifically, it helps to check on deviations of security best practices, exposure of EC2 instances, vulnerabilities, and so forth.
@@ -14,7 +15,7 @@ has three parts
 - Amazon agent, which can be installed to EC2 instances
 - security assessment service
 
-to use => configure Inspector options, run the service and out pops a list of potential security issues displayed in the Amazon Inspector console that details the security iosse and provides a reccomendatio on how to fix it
+to use => configure Inspector options, run the service and out pops a list of potential security issues displayed in the Amazon Inspector console that details the security iosse and provides a reccomendation on how to fix it
 
 can also be retrieved through an API
 
@@ -32,3 +33,10 @@ runs independently from your AWS Services
 encryption at rest
 create, manage, and use cryptographic keys
 specify the access level using IAM users and roles
+
+
+# WAF
+web application firewall -> lets you monitor network requests that comine into your web applications
+
+has their own ACLs, WACLs
+same concept
