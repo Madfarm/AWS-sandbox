@@ -26,3 +26,9 @@ uses known malicious IP addresses, anomaly detection, and ML to identify threats
 
 runs independently from your AWS Services
 -> doesn't affect performance or availability on existing infrastructure and workloads
+
+
+# Key Management Service (AWS KMS)
+encryption at rest
+create, manage, and use cryptographic keys
+specify the access level using IAM users and roles
