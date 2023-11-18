@@ -7,6 +7,7 @@ automated advisor that will evaluate your resources against 5 pillars:
 - service limits
 
 
+
 inspects your AWS environment and provides real-time recommendations in accordance with AWS best practices
 
 
@@ -14,3 +15,4 @@ inspects your AWS environment and provides real-time recommendations in accordan
 green checks -> obvious
 orange triangle -> reccommended investigations
 red circle -> reccommeneded actions
+
