@@ -9,6 +9,8 @@ customer service, documentation, whitepapers, support forums, AWS Trusted Adviso
 includes:
 - everything from Basic tier
 - email customer support directly with a 24 hour response time or 12 hour response time if your systems are impaired
+- client-side diagnostic tools
+- Building-block architecture support, which consists of guidance for how to use AWS offerings, features, and services together
 
 
 # AWS Business Support
@@ -33,3 +35,15 @@ includes:
 - designated TAM who will proactively monitor your environment and assist with optimization
 - access to proactive reviews, workshops, and deep dives
 
+
+
+
+# Technical Account Managers
+part of the concierge support team that comes with both of the Enterprise Support options
+they provide:
+- infrastructure event management
+- Well-Architected reviews
+- operations reviews
+
+
+Well-Architected Reviews - Architectures are checked against the six pillars of the Well-Architected Framework: Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, and Sustainability
