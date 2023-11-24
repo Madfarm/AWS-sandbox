@@ -31,4 +31,8 @@ use a variet of architectural models to understand and communicate the structure
 ## Security
 use the AWS CAF to structure the selection and implementation of security controls that meet the organization's needs
 
+## Operations
+defined how day-to-day, quarter-to-quarter, and year-to-year 
+helps these stakeholders define current operating procedures and identify the process changes and training needed to implement successful cloud adoption.
+
 
