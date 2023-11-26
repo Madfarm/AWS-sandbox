@@ -36,3 +36,6 @@ defined how day-to-day, quarter-to-quarter, and year-to-year
 helps these stakeholders define current operating procedures and identify the process changes and training needed to implement successful cloud adoption.
 
 
+operate on these nuts
+
+
