@@ -16,5 +16,30 @@ small, rugged edge computing and data transfer device
 
 ## Snowball
 two options:
-> Snowball Edge Compute Optimized
 > Snowball Edge Storage Optimized
+- Storage
+80 TB HDD
+1 TB SSD for block volumes
+
+- Compute
+40 vCPUs
+80 GiB of memory to support EC2 sbe1 instances
+
+> Snowball Edge Compute Optimized
+- Storage
+80 TB HDD
+28 TB NVMe SSD for block volumes
+
+- Compute
+104 vCPUs
+416 GiB of memory
+optional NVIDIA Tesla V100 GPU
+Devices run Amazon EC2 sbe-c and sbe-g instances, which are equivalent to C5, M5a, G3, and P3 instances.
+
+
+## Snowmobile
+Exabyte scale data transfer service
+45-foot long ruggedized shipping container pulled by a semi trailer truck
+
+100 petabytes of data per Snowmobile
+
