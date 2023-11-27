@@ -17,3 +17,7 @@ some applications may need to retire soon but not yet, in which case, there isn'
 
 ## Repurchase
 switch software providers like ending a contract with an old CRM or switching db to cloud native db
+
+## Refactoring
+Writing new code
+new features or better performance etc.
