@@ -25,3 +25,6 @@ maintaining efficiency as business needs evolve
 self-explanatory
 
 
+## Sustainability
+minimizing environmenta impacts of running cloud workloads
+reducing energy consumption and increasing efficiency are the core of this pillar
