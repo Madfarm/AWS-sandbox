@@ -14,3 +14,6 @@ ending some applications that you are no longer using
 
 ## Retain
 some applications may need to retire soon but not yet, in which case, there isn't much benefit to migrating them to AWS so you just leave them as is
+
+## Repurchase
+switch software providers like ending a contract with an old CRM or switching db to cloud native db
