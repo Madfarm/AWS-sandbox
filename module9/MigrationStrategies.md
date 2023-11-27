@@ -11,3 +11,6 @@ but you might make some optimizations like MySQl -> RDS or upgrade to Aurora
 
 ## Retiring
 ending some applications that you are no longer using
+
+## Retain
+some applications may need to retire soon but not yet, in which case, there isn't much benefit to migrating them to AWS so you just leave them as is
