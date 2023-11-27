@@ -8,4 +8,15 @@ ex: automating changes with deployment pipelines or responding to events that ar
 
 
 ## Security
-self-explanatory
+self-explanatory but some examples:
+encryption
+integrity of data
+
+
+## Reliability
+recovery planning
+how to handle changes
+
+## Performance Efficiency
+using IT and computing resources efficiently
+maintaining efficiency as business needs evolve
