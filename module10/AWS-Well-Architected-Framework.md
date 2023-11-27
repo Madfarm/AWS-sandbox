@@ -20,3 +20,8 @@ how to handle changes
 ## Performance Efficiency
 using IT and computing resources efficiently
 maintaining efficiency as business needs evolve
+
+## Cost Optimization
+self-explanatory
+
+
