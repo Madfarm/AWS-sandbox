@@ -8,3 +8,6 @@ self-explanatory
 ## Replatforming - lift tinker and shift
 rehosting still -  no changing core code 
 but you might make some optimizations like MySQl -> RDS or upgrade to Aurora
+
+## Retiring
+ending some applications that you are no longer using
