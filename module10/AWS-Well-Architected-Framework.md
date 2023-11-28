@@ -11,6 +11,9 @@ improve supporting processes and procedures
 ex: automating changes with deployment pipelines or responding to events that are triggered
 
 
+all about optimizing
+
+
 ## Security
 self-explanatory but some examples:
 encryption
@@ -34,6 +37,8 @@ Goals:
 ## Performance Efficiency
 using IT and computing resources efficiently
 maintaining efficiency as business needs evolve
+
+cares about system requirements
 
 ## Cost Optimization
 self-explanatory
