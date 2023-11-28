@@ -14,3 +14,5 @@ edge locations can also run domain name service, DNS, Amazon Route 53
 
 ## AWS Outposts 
 Basically a full operational mini region inside your own data center
+
+run infrastructure in a hybrid cloud approach
