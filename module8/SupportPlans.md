@@ -17,7 +17,7 @@ includes:
 includes:
 - everything from Developer tier
 - Trusted Advisor now opens up the entire suite of checks for your account
-- direct phone access to the support team
+- direct phone access to the support team 24 hours 7 days a week
 - under 4-hour response time if your production system is impaired
 - under 1-hour response time if your production system is down
 - access infrastructure event management
