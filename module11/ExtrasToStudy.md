@@ -8,6 +8,10 @@ AWS Batch
 
 
 
+# AWS Macie
+a data security service that uses ML and pattern matching to detect when sensitive information, including personally identifiable information (PII), is stored in an S3 bucket to generate a finding
+
+
 # AWS Config
 a fully managed service that can provide inventory and configuration history audit reports of AWS resources.
 can store the reports in an S3 bucket and also can be integrated with SNS for notifications.
