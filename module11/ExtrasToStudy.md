@@ -1,11 +1,12 @@
 WAF
 S3 security monitoring
 AWS Control Tower
+Rightsizing
 AWS Resource Access Manager
 AWS Client VPN
 Amazon Rekognition
 AWS Batch
-
+AWS MGN
 
 
 # AWS Macie
@@ -23,3 +24,5 @@ Direct Connect is not encrypted
 
 
 Dedicated Hosts can use savings plans and are therefore cheaper than On Demand
+
+
