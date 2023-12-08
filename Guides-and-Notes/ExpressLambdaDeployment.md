@@ -91,7 +91,7 @@
     - create a stage like "test" or "production" or choose default then deploy
 
 15. You will be given an Invoke URL, this is where the Express app is deployed to
-    Navigate to it and test your routes, note the Base path or Home route will return
+    - Navigate to it and test your routes, note the Base path or Home route will return
 
     ```
     {"message":"Missing Authentication Token"}
