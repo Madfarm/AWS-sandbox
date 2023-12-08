@@ -48,3 +48,54 @@
    - Give the function a name and click "Create function"
 
 7. In the code tab, find the drop down that says "Upload from" and select zip file then upload the .zip of the express app
+
+8. Next, in the code tab, find "Runtime settings", edit them
+   - change the Handler from index.handler to lambda.handler
+
+   this instructs it where to locate the handler in the lambda.js file we created
+
+   if you zipped the express application with an outer directory you will need to the Handler to reflect that:
+
+   {outer-directory}/lambda.handler
+
+9. If you have any environment variables make sure to set them in the configuration tab
+
+10. With the environment variables set and the Handler properly we can now test the lambda function
+    Go to the Test tab and click Test
+
+    It should exceed and in the body of the response you should see whatever you configured in step 3
+
+
+11. Now, find the "Add trigger" button
+    - for the source select API Gateway
+    - Create a new API
+    - REST API
+    - Security is up to you
+    - Add
+
+12. In the configuration section of the lambda, it should list our new API Gateway as a trigger, click it
+    - This will open the API Gateway menu and you should "Resources" and a dropdown that says "Actions" if you're using the old console. The new console you will see a button labeled "Create resource"
+    - Create a resource that is a proxy resource, with the base path "\"
+    - in the name fild provide it with any path parameter with a plus  
+    - ex: {proxy+}
+    
+    you should see it in your list of resources
+
+13. Click into the newly created resource and find the "Edit Integration" button
+    - Lambda Function integration type
+    - check the box/button that says "Lambda proxy integration"
+    - Select the lambda function from the list
+    - save
+
+14. Now find the Deploy API button and click it
+    - create a stage like "test" or "production" or choose default then deploy
+
+15. You will be given an Invoke URL, this is where the Express app is deployed to
+    Navigate to it and test your routes, note the Base path or Home route will return
+
+    ```
+    {"message":"Missing Authentication Token"}
+    ```
+
+
+You now have an Express app deployed on AWS
